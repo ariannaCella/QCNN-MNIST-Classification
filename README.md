@@ -1,0 +1,5 @@
+In questo progetto, verrà sviluppata e testata una Quantum Convolutional Neural Network (QCNN) utilizzando 8 qubit per classificare immagini del dataset MNIST, focalizzandosi esclusivamente sulle cifre 0 e 1. Le immagini, ridimensionate a 16x16 pixel, verranno codificate tramite Amplitude Encoding, sfruttando la capacità dei qubit di rappresentare fino a 2^n features (dove n è il numero di qubit). La struttura della QCNN sarà basata su circuiti quantistici di convoluzione e pooling.
+
+Dopo l'addestramento del modello, verranno analizzati i risultati dati dalla classificazione corretta o errata delle immagini, cercando di identificare pattern ricorrenti nelle predizioni fallite. 
+In aggiunta, verrà calcolata l'accuratezza e la distanza media tra gli esempi classificati correttamente e quelli erroneamente rispetto ad uno stato quantistico ideale, con l'obiettivo di comprendere meglio le prestazioni del modello.
+Inoltre, verranno esplorati gli effetti di una possibile riduzione del numero di qubit, eseguendo il modello anche con solo 4 qubit per verificare l'impatto sulla precisione e l'efficienza della rete.
